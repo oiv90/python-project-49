@@ -30,6 +30,9 @@ def main():
     while points < 3:
         result_message, result_point = game_round()
         print(result_message)
+        if result_point == 0:
+            print(f"Let's try again, {username}!")
+            exit()
         points += result_point
 
     print(f'Congratulations, {username}!')
