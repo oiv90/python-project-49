@@ -1,12 +1,7 @@
 #!/usr/bin/env python
 import prompt
 import random
-
-
-def welcome_user():
-    username = prompt.string('May I have your name? ')
-    print(f'Hello, {username}!')
-    return username
+from ..cli import welcome_user
 
 
 def game_round():
