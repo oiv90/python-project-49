@@ -1,6 +1,7 @@
 import prompt
 import brain_games.games.even as even
 import brain_games.games.calc as calc
+import brain_games.games.gcd as gcd
 from brain_games.cli import welcome_user
 
 
@@ -10,6 +11,8 @@ def select_game(game_name):
             return even
         case 'calc':
             return calc
+        case 'gcd':
+            return gcd
         
 
 def game_round(game):
