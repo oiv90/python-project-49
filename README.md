@@ -4,4 +4,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a68c076801b28b7da585/maintainability)](https://codeclimate.com/github/oiv90/python-project-49/maintainability)
 
 ### Brain-even asciinema:
-https://asciinema.org/a/p2VSUtH27OL8NRmWAe1XLW6eX
+https://asciinema.org/a/p2VSUtH27OL8NRmWAe1XLW6eX  
+
+### Brain-calc asciinema:
+https://asciinema.org/a/zWi0hEjf4axf7qLpeSIjlUj72
