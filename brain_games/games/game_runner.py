@@ -1,10 +1,6 @@
-import prompt
-import brain_games.games.even as even
-import brain_games.games.calc as calc
-import brain_games.games.gcd as gcd
-import brain_games.games.progression as progression
-import brain_games.games.prime as prime
 from brain_games.cli import welcome_user
+from brain_games.games import calc, even, gcd, prime, progression
+import prompt
 
 
 def select_game(game_name):
