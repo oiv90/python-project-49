@@ -3,10 +3,10 @@ from ..cli import welcome_user
 
 
 def main():
-    print('Welcome to the Brain Games!')
+    print("Welcome to the Brain Games!")
     welcome_user()
     # username = welcome_user()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

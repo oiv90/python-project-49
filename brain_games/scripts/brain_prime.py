@@ -3,8 +3,8 @@ from brain_games.games.game_runner import run_game
 
 
 def main():
-    run_game('prime')
+    run_game("prime")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
