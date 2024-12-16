@@ -2,6 +2,7 @@ import prompt
 import brain_games.games.even as even
 import brain_games.games.calc as calc
 import brain_games.games.gcd as gcd
+import brain_games.games.progression as progression
 from brain_games.cli import welcome_user
 
 
@@ -13,6 +14,8 @@ def select_game(game_name):
             return calc
         case 'gcd':
             return gcd
+        case 'progression':
+            return progression
         
 
 def game_round(game):
