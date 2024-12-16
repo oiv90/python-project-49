@@ -3,6 +3,7 @@ import brain_games.games.even as even
 import brain_games.games.calc as calc
 import brain_games.games.gcd as gcd
 import brain_games.games.progression as progression
+import brain_games.games.prime as prime
 from brain_games.cli import welcome_user
 
 
@@ -16,6 +17,8 @@ def select_game(game_name):
             return gcd
         case 'progression':
             return progression
+        case 'prime':
+            return prime
         
 
 def game_round(game):
