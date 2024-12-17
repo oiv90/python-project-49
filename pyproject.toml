@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "hexlet-code"
-version = "0.1.0"
-description = ""
+name = "Brain-games"
+version = "1.0.0"
+description = "Some cool brain games"
 authors = ["Ivan Oleksin"]
 readme = "README.md"
 packages = [
