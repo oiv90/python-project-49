@@ -1,6 +1,5 @@
 import random
 
-
 HELLO_MESSAGE = "What is the result of the expression?"
 
 

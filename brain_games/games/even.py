@@ -1,6 +1,5 @@
 import random
 
-
 HELLO_MESSAGE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 

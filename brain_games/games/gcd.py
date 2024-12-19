@@ -1,6 +1,5 @@
 import random
 
-
 HELLO_MESSAGE = "Find the greatest common divisor of given numbers."
 
 

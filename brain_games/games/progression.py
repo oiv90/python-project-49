@@ -1,6 +1,5 @@
 import random
 
-
 HELLO_MESSAGE = "What number is missing in the progression?"
 
 
