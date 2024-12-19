@@ -1,7 +1,10 @@
 import random
 
 
-def generate_question():
+HELLO_MESSAGE = "What number is missing in the progression?"
+
+
+def calculate_progression():
     step = random.randint(2, 9)
     start = random.randint(1, 20)
     progression = []
@@ -13,11 +16,13 @@ def generate_question():
     pos_to_replace = random.randint(0, 9)
     num = progression[pos_to_replace]
     progression[pos_to_replace] = ".."
-
     correct_answer = str(num)
+
+    return progression, correct_answer
+
+
+def generate_question():
+    progression, correct_answer = calculate_progression()
     question = " ".join(progression)
 
     return question, correct_answer
-
-
-hello_message = "What number is missing in the progression?"

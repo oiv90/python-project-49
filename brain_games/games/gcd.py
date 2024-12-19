@@ -1,6 +1,9 @@
 import random
 
 
+HELLO_MESSAGE = "Find the greatest common divisor of given numbers."
+
+
 def gcd(a, b):
     while b:
         a, b = b, a % b
@@ -14,7 +17,4 @@ def generate_question():
     correct_answer = str(gcd(num1, num2))
     question = f"{num1} {num2}"
 
-    return question, str(correct_answer)
-
-
-hello_message = "Find the greatest common divisor of given numbers."
+    return question, correct_answer

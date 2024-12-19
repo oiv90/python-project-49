@@ -36,7 +36,7 @@ def run_game(game_name):
 
     username = welcome_user()
     game = select_game(game_name)
-    print(game.hello_message)
+    print(game.HELLO_MESSAGE)
 
     points = 0
     while points < 3:

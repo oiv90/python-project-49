@@ -1,6 +1,9 @@
 import random
 
 
+HELLO_MESSAGE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+
 def is_prime(n):
     if n < 2:
         return False
@@ -23,6 +26,3 @@ def generate_question():
     question = f"{num}"
 
     return question, correct_answer
-
-
-hello_message = 'Answer "yes" if given number is prime. Otherwise answer "no".'
